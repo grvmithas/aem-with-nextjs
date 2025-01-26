@@ -19,16 +19,19 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-
-
-
   return (
     <html lang="en">
      <head>
-      <script src="https://dev-www.sunbeltrentals.com/etc.clientlibs/sunbeltrentals/clientlibs/clientlib-cc.lc-798974caf87cf2380d0a55bd20599ae3-lc.min.js"></script>
+	  <meta name="urn:adobe:aue:system:aem" content="aem:https://localhost:8443" />
+	  <meta name="urn:adobe:aue:system:aemconnection" content="aem:https://localhost:8443" />
+	  <meta name="urn:adobe:aue:config:service" content="https://localhost:8000" />
+      <script src="https://universal-editor-service.adobe.io/cors.js" async></script>
+      <script src="https://localhost:3000/clientlib-cc.min.js"></script>
+	  <link rel="preload" href="/sunbelticons.ttf" as="font" type="font/ttf" />
       <link
           rel="stylesheet"
-          href="https://qa-www3.sunbeltrentals.com/etc.clientlibs/sunbeltrentals/clientlibs/clientlib-cc.lc-7e8b97c136dc34aeacf28980a54cb17d-lc.min.css"
+		  href="https://localhost:3000/clientlib-cc.min.css"
+          //href="https://dev-www.sunbeltrentals.com/etc.clientlibs/sunbeltrentals/clientlibs/clientlib-cc.min.css"
           integrity="sha384-..." // Optional: For security, you can use the `integrity` and `crossorigin` attributes
         />
      </head>
