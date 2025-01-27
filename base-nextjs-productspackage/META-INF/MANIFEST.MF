@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Content-Package-Id: my_packages:base-nextjs-productspackage
+Content-Package-Roots: /content/dam/wknd/en/site/products,/conf/wknd-sha
+ red/settings/graphql/persistentQueries/productlist,/conf/wknd-shared/se
+ ttings/dam/cfm/models/product-model
+Content-Package-Type: content
+

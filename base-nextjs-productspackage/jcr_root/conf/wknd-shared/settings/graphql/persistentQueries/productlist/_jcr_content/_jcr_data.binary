@@ -1,0 +1,14 @@
+query productList {
+  productModelList {
+    items {
+      id
+      name
+      price
+      imagePath {
+        ... on ImageRef {
+          _path
+        }
+      }
+    }
+  }
+}

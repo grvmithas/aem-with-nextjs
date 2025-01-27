@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="2f57499e-1c71-45c2-9cf9-81149f3376d9">
+    <jcr:content
+        cq:name="product-1"
+        cq:parentPath="/content/dam/wknd/en/site/products"
+        jcr:lastModified="{Date}2025-01-26T17:01:53.060+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Product 1"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2025-01-26T11:19:18.707+05:30">
+        <data
+            cq:model="/conf/wknd-shared/settings/dam/cfm/models/product-model"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                id="{Double}1.0"
+                id_x0040_LastModified="{Date}2025-01-26T11:19:18.675+05:30"
+                id_x0040_LastModifiedBy="admin"
+                imagePath="/content/dam/wknd-shared/en/activities/camping/camp-summer-night.jpg"
+                imagePath_x0040_LastModified="{Date}2025-01-26T11:19:18.680+05:30"
+                imagePath_x0040_LastModifiedBy="admin"
+                name="Product 1"
+                name_x0040_LastModified="{Date}2025-01-26T17:01:53.060+05:30"
+                name_x0040_LastModifiedBy="admin"
+                price="$70"
+                price_x0040_LastModified="{Date}2025-01-26T13:20:04.585+05:30"
+                price_x0040_LastModifiedBy="admin"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="0c2a30ef-268e-4c2d-a8e6-9e39a2fc716e"
+                _x0040_string_x0040_model="/conf/wknd-shared/settings/dam/cfm/models/product-model"
+                _x0040_stringArray_x0040_variations="[]"
+                double_x0040_id="{Double}1.0"
+                string_x0040_name="Product 1"
+                string_x0040_price="$70"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

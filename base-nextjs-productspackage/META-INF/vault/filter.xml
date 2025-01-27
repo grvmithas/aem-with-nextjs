@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/wknd-shared/settings/dam/cfm/models/product-model"/>
+    <filter root="/conf/wknd-shared/settings/graphql/persistentQueries/productlist"/>
+    <filter root="/content/dam/wknd/en/site/products"/>
+</workspaceFilter>

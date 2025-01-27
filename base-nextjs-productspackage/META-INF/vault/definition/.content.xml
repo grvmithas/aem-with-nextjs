@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0"
+    jcr:created="{Date}2025-01-27T08:55:05.040+05:30"
+    jcr:createdBy="admin"
+    jcr:description="\0"
+    jcr:lastModified="{Date}2025-01-27T08:55:05.040+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    buildCount="1"
+    builtWith="Adobe Experience Manager-2024.10.18311.20241017T104455Z"
+    group="my_packages"
+    lastUnwrapped="{Date}2025-01-27T08:55:05.040+05:30"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2025-01-27T08:55:05.040+05:30"
+    lastWrappedBy="admin"
+    name="base-nextjs-productspackage"
+    version="\0">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            propertyRules="[]"
+            root="/conf/wknd-shared/settings/dam/cfm/models/product-model"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            propertyRules="[]"
+            root="/conf/wknd-shared/settings/graphql/persistentQueries/productlist"
+            rules="[]"/>
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            propertyRules="[]"
+            root="/content/dam/wknd/en/site/products"
+            rules="[]"/>
+    </filter>
+</jcr:root>
